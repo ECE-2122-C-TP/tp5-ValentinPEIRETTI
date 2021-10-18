@@ -33,7 +33,7 @@ void exercice2(){
         scanf("%d",&n);
   }
   printf("Veuillez rentrer les valeurs du tableau souhaitees:\n"); // Mettre la demande avant le for pour éviter qu'elle ne soit répétée a chque saisie
-  for (i=1;i<=n; i++) {
+  for (i=0;i<n; i++) {
       scanf("%d",&tableau[i]);
       if (tableau[i]>x){
           x=tableau[i];
